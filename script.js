@@ -109,3 +109,4 @@ document.addEventListener("DOMContentLoaded", function(){
 
 // мердж
 // Вот тут какая то хуйня сделана
+// жопа сосется жоска
