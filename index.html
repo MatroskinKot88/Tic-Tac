@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, itial-scale=1.0">
+        <title>Название страницы</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Крестики нолики</h1>
+        <div class="container"> 
+            <p>Выбери за кого играть</p>
+            <button type="button" name="X" id="X">X</button>
+            <button type="button" name="O" id="O">O</button>            
+        </div>
+        <div class="container">
+            <button type="button" hidden name="cancel" id="cancel">Галя, Отмена!</button>
+            <input value="true" hidden name="inputx" id="inputx">
+            <input value="true" hidden name="inputo" id="inputo">
+        </div>
+        <div class="container" id="tic-tac-toe-board" hidden>
+            <div class="row">
+                <div class="cell" id="cell-1">
+                    <button class="button" id=1></button>
+                </div>
+                <div class="cell" id="cell-2">
+                    <button class="button" id=2></button>
+                </div>
+                <div class="cell" id="cell-3">
+                    <button class="button" id=3></button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="cell" id="cell-4">
+                    <button class="button" id=4></button>
+                </div>
+                <div class="cell" id="cell-5">
+                    <button class="button" id=5></button>
+                </div>
+                <div class="cell" id="cell-6">
+                    <button class="button" id=6></button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="cell" id="cell-7">
+                    <button class="button" id=7></button>
+                </div>
+                <div class="cell" id="cell-8">
+                    <button class="button" id=8></button>
+                </div>
+                <div class="cell" id="cell-9">
+                    <button class="button" id=9></button>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
