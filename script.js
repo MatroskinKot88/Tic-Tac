@@ -106,3 +106,6 @@ document.addEventListener("DOMContentLoaded", function(){
             showButton()
         }
 });
+
+
+// Вот тут какая то хуйня сделана
